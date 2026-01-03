@@ -41,6 +41,7 @@
       {"action": "resolve"},
     ],
     "rule_set": [
+      {"tag": "geosite-fakeipfilter", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/fakeipfilter.json", "download_detour": "🎯 全球直连"}
     ],
     "final": "🚀 默认代理",
     "default_domain_resolver": {"server": "public"}
